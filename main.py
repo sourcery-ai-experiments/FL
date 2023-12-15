@@ -8,4 +8,4 @@ app = Flask(__name__)
 def tested_fog():
     return "THE FOG IS COMING" * int(time()/100000)
 
-app.run(port=1984)
+app.run(port=9002)
